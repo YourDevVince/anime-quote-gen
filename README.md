@@ -1,1 +1,0 @@
-# anime-quote-gen

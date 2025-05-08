@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h1 {
+    font-family: 'Luckiest Guy', sans-serif;
+    text-shadow: black 0 0 10px;
+  }
+  body {
+    background-image: url(./assets/anime-bkgr.png);
+    background-size: cover;
+  }
+}
+
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
+
+  .btn-press-anim {
+    @apply transition active:scale-75;
+  }
+}
